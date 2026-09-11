@@ -1,0 +1,29 @@
+[
+  {
+    "document_id": "49f57e9e656c2638",
+    "document_hash": "49f57e9e656c26388cb1d9ee6bbed5c7bc77908d6d1f888a1b3a3114dca769ec",
+    "filename": "Data_Science_Induction_Project.pdf",
+    "chunks": [
+      {
+        "text": "FEBS IIT Bhubaneswar Data Science Induction Program Project: Salary Prediction Prepared by: Saarthak Tiwari Head of Data Science, Society of Finance, Economics and Business (FEBS)",
+        "page": 1,
+        "chunk": 0
+      },
+      {
+        "text": "1 Problem Statement Your objective is to build an end-to-end Machine Learning pipeline that predicts an employee’s salary based on their demographic and professional background. You will extract the data, explore it visually, preprocess it for machine learning, and apply a Linear Regression model to find the solution. Ensure you evaluate and check the final accuracy of the model to prove its effectiveness. 2 Dataset Overview You will use theSalary Prediction Dataset. It maps various professional and demo- graphic attributes to compensation. The dataset contains the following columns: •Age: The age of the employee in years. •Gender: The gender of the employee (e.g., Male, Female). •Education Level: The highest degree earned (e.g., High School, Bachelor’s, Mas- ter’s, PhD). •Job Title: The specific professional role of the employee. •Years of Experience: The total working experience in years. •Salary (TARGET): The annual salary of the employee. 3 Data Extraction & Setup 1. Open a newGoogle Colabnotebook. 2. Go to Kaggle.com and search for theSalary Prediction Dataset. 3. Download the dataset to your local machine. 4. Upload the dataset into your Google Colab environment to begin your analysis.",
+        "page": 2,
+        "chunk": 0
+      },
+      {
+        "text": "ata Extraction & Setup 1. Open a newGoogle Colabnotebook. 2. Go to Kaggle.com and search for theSalary Prediction Dataset. 3. Download the dataset to your local machine. 4. Upload the dataset into your Google Colab environment to begin your analysis. 4 Project Workflow Execute the following steps in your notebook: •Initial Documentation:Create a Markdown cell at the very start of your note- book to clearly describe the project and what you are doing. •Exploratory Data Analysis (EDA):Explore the dataset thoroughly. Include as many graphs and visual plots as possible to uncover trends and correlations. •Data Preprocessing:Clean, scale, and encode the data to prepare it for your algorithm. 1",
+        "page": 2,
+        "chunk": 1
+      },
+      {
+        "text": "•Model Training & Evaluation:Train a Linear Regression model on the prepro- cessed data to find the solution.Note:You must split your data exactly50/50 between the training and testing sets. Finally, calculate and check the accuracy scores of your model to determine its reliability. Submission Guidelines When you have completed the project, save and rename your file exactly as follows: <Name> FEBS DATA SCIENCE INDUCTION PROJECT.ipynb Submit this file to the FEBS submission portal by the assigned deadline. 2",
+        "page": 3,
+        "chunk": 0
+      }
+    ]
+  }
+]

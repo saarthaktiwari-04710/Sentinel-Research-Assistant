@@ -1,0 +1,33 @@
+# Environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Database / LangGraph checkpoints
+*.sqlite
+*.sqlite3
+checkpoints.sqlite
+
+# Local uploaded documents
+data/uploads/
+uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
