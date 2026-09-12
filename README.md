@@ -100,3 +100,75 @@ Sentinel is an AI-powered research assistant designed to provide reliable, conte
                                              │                   │
                                              ▼                   ▼
                                         Re-run Agent         Save Answer
+
+```
+
+
+
+
+
+## 🚀 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/saarthaktiwari-04710/Sentinel-Research-Assistant.git
+cd Sentinel-Research-Assistant
+```
+
+### 2. Create a virtual environment
+
+Windows
+
+``` bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+Linux/macOS
+
+``` bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+### 3. Install dependencies
+
+``` bash
+pip install -r requirements.txt
+```
+
+
+### 4. Configure environment variables
+
+Create a .env file in the project root:
+
+``` bash
+GROQ_API_KEY=your_groq_api_key_here
+BACKEND_URL=http://localhost:8000
+```
+
+⚠️ Never commit your .env file or expose your API key publicly.
+
+## ▶️ Run Sentinel
+
+### Start the backend
+
+Open a terminal and run:
+
+``` bash
+python backend.py
+```
+The FastAPI backend will run at:
+``` bash
+http://localhost:8000
+```
+### Start the frontend
+
+Open another terminal and run:
+``` bash
+streamlit run frontend.py
+```
+
+Open the URL shown by Streamlit, usually:
+``` bash
+http://localhost:8501
+```
